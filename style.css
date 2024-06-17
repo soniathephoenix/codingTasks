@@ -1,0 +1,100 @@
+header {
+  text-align: center;
+}
+
+td {
+  color: black;
+  text-align: center;
+  width: 5vw;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+
+.none {
+  border: none;
+}
+
+.yellow {
+  background-color: rgb(248, 248, 193);
+}
+
+.pink {
+  background-color: rgb(244, 191, 199);
+}
+
+.purple {
+  background-color: rgb(193, 178, 222);
+}
+
+.blue {
+  background-color: rgb(153, 195, 241);
+}
+
+.green {
+  background-color: aquamarine;
+}
+
+.greenp {
+  background-color: rgb(191, 236, 154);
+}
+
+.orange {
+  background-color: rgb(247, 223, 184);
+}
+
+.skyb {
+  background-color: rgb(139, 244, 244);
+}
+
+.aqua {
+  background-color: rgb(189, 231, 217);
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flexitem {
+  text-align: center;
+  padding: 1vh;
+  font-size: 2vh;
+  flex: 1;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background: url(periodictable.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 200px;
+  }
+  .flex-container {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+
+/*//Improve
+
+Completeness / Correctness 
+✠ As per the task requirements, there should also be a breakpoint that triggers a change in the styling of your webpage. For example, this change in styling could be the background colour which changes once the screen reaches a certain dimension. This change in styling could also be implemented with a media query. 
+
+Code Style 
+✠ Unfortunately, there are various errors picked up by the HTML validator. Please copy and paste the HTML code into the HTML validator at the following URL and press the check button: https://validator.w3.org/#validate_by_input 
+Feel free to view this tutorial on how to use the HTML validator: https://youtu.be/lTsDQZg7_Jw 
+
+✠ The id attribute in the HTML should not be shared amongst HTML elements. The HTML id attribute should provide a unique identifier for an element within an HTML document. A class selector can be shared amongst HTML elements and used numerous times. An HTML element can also have more than one class. 
+
+Documentation 
+✠ Consider using commenting in your HTML file to denote the different segments of your HTML code. To create a comment in HTML, place a <!-- tag before the code and a --> tag after the code that you want to hide. These tags tell browsers to ignore anything between them.
