@@ -36,4 +36,5 @@ The task involves creating a responsive periodic table using HTML and CSS. Here'
 
 In summary, the task of creating a responsive periodic table with HTML and CSS helps build crucial web development skills, promotes good design practices, and lays a strong foundation for more advanced coding topics.
 
-- ### credits: Sonia Pires 
+- ### Credits: Sonia Pires
+
